@@ -1,0 +1,18 @@
+Source: libconfigduo
+Priority: extra
+Maintainer: Klaus Schneider <kschn@users.sourceforge.net>
+Build-Depends: debhelper (>= 5), autotools-dev, texinfo
+Standards-Version: 3.7.2
+Section: libs
+
+Package: libconfigduo-dev
+Section: libdevel
+Architecture: any
+Depends: libconfigduo (= ${Source-Version})
+Description: A library for manipulating configuration files, developement files
+
+Package: libconfigduo
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: A library for manipulating configuration files

@@ -1,0 +1,9 @@
+
+- Add support for #include's; a patch was submitted for this previously, but it
+  is not reentrant (uses static global variables), so can't be used as-is. I
+  just haven't gotten around to implementing this because it's not a trivial
+  change, and free time being in limited supply as it is...
+
+- Add limited support for preserving comments?
+
+- Add support for unicode strings
